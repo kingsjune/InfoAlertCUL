@@ -1,0 +1,6 @@
+framework module InfoAlertCUL {
+  umbrella header "InfoAlertCUL-umbrella.h"
+
+  export *
+  module * { export * }
+}

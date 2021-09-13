@@ -1,0 +1,16 @@
+PODS:
+  - InfoAlertCUL (0.1.0)
+
+DEPENDENCIES:
+  - InfoAlertCUL (from `../`)
+
+EXTERNAL SOURCES:
+  InfoAlertCUL:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  InfoAlertCUL: abffba5bc3f251d74c60049ef2ca29b06c28af9e
+
+PODFILE CHECKSUM: 11fa264c9ebd3f85565c538a355b53a4ceead102
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'InfoAlertCUL_Example' do
+  pod 'InfoAlertCUL', :path => '../'
+
+  target 'InfoAlertCUL_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
