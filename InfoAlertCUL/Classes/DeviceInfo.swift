@@ -37,7 +37,7 @@ open class DeviceInfo: NSObject {
     
     //MARK: 스크린사이즈
     public static func screenSize() -> String {
-        let size = NSCoder.string(for: UIScreen.main.bounds)
+        let size = NSStringFromCGRect(UIScreen.main.bounds)
         return size
     }
     
